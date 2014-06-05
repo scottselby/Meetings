@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="MeetingDbContext-Web.config Connection String" description="MeetingDbContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=tcp:sql2k804.discountasp.net;Initial Catalog=SQL2008R2_932096_meetings;User ID=SQL2008R2_932096_meetings_user;Password=1234;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Scott\\documents\\visual\ studio\ 2013\\Projects\\Meetings\\Meetings\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MeetingDbContext']/@connectionString" />
+  </parameter>
+  <parameter name="MeetingContext-Web.config Connection String" description="MeetingContext Connection String used in web.config by the application to access the database." defaultValue="data source=sql2k804.discountasp.net;initial catalog=SQL2008R2_932096_meetings;persist security info=True;user id=SQL2008R2_932096_meetings_user;password=1234;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Scott\\documents\\visual\ studio\ 2013\\Projects\\Meetings\\Meetings\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MeetingContext']/@connectionString" />
+  </parameter>
+</parameters>

@@ -1,0 +1,101 @@
+﻿
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <title>Home</title>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500' rel='stylesheet' type='text/css'>
+    <link href="~/Content/mapStyles.css" rel="stylesheet" />
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=**********************&sensor=TRUE"></script>
+    <script src="~/Scripts/date.js"></script>
+    <script src="~/Scripts/mapScripts.js"></script>
+</head>
+<body >
+    <div class="topNavContainer">
+       <ul class="topNavList">
+           <li><a>RecoveryMeetings.org</a></li>
+           <li><a>Home</a></li>
+           <li><a>Advanced Search</a></li>
+           <li><a>Meeting Info</a></li>
+           <li><a>Help Contribute</a></li>
+           <li><a>About Us</a></li>
+       </ul>
+    </div>
+
+    <div class="topFormContainer">
+        <input type="hidden" name="Latitude" id="Latitude" />
+        <input type="hidden" name="Longitude" id="Longitude" />
+        <input type="hidden" name="formatted_address" id="formatted_address" />
+        <div class="SearchFormDesktop">
+            <input type="hidden" name="latitude" id="latitude">
+            <input type="hidden" name="longitude" id="longitude">
+            <label>Location:</label>
+            <input type="text" id="Location" name="Location" class="bigText" placeholder="Address, City, or Zipcode">
+            <a href="#" class="_getLocation imgLocation">
+                <img src="/Images/target.png" alt="target">
+            </a>
+            <label>With in:</label>
+            <select id="Radius" name="Radius">
+                <option value="1">1 Mile</option>
+                <option value="2">2 Miles</option>
+                <option value="3">3 Miles</option>
+                <option value="4">4 Miles</option>
+                <option value="5">5 Miles</option>
+                <option value="10">10 Miles</option>
+            </select>
+            <label>On:</label>
+            <select id="DayOfWeek" name="DayOfWeek">
+                <option value="0">Sunday</option>
+                <option value="1">Monday</option>
+                <option value="2">Tuesday</option>
+                <option value="3">Wednesday</option>
+                <option value="4">Thursday</option>
+                <option value="5">Friday</option>
+                <option value="6">Saturday</option>
+            </select>
+            <input type="button" value="Submit" id="SearchSubmit">
+        </div>
+    </div>
+    <div class="mainContainer" style="padding-left:225px;">
+        <div class="leftContainer">
+            <ul class="search-results">
+            </ul>
+        </div>
+        <div class="map-container" >
+            <div id="map-canvas" style="width:100%;height:550px"></div>
+
+        </div>
+    </div>
+    
+    <ul style="display:none;">
+        <li class="_template resultListItem"
+            ><div class="Address"></div>           
+            <div class="location-name"></div>
+            <div class="Name"></div>
+            <div class="distance"></div>
+            <div class="time"></div>
+            <div class="day-of-week"></div>            
+        </li>       
+    </ul>
+  
+
+    <img src="/Images/ajax-loader.gif" class="loading"  />
+    <img src="/Images/ajax-loader.gif" class="loadingLeft" />
+</body>
+
+@*<script type="text/javascript">
+    function initialize() {
+        var mapOptions = {
+            center: new google.maps.LatLng(41.877818, -87.631276),
+            zoom: 8
+        };
+        var map = new google.maps.Map(document.getElementById("map-canvas"),
+            mapOptions);
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+</script>*@
+
+</html>

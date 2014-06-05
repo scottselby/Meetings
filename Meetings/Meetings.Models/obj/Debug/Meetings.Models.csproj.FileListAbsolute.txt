@@ -1,0 +1,15 @@
+c:\Users\Scott\documents\visual studio 2013\Projects\Meetings\Meetings.Models\obj\Debug\Meetings.Models.csprojResolveAssemblyReference.cache
+c:\Users\Scott\documents\visual studio 2013\Projects\Meetings\Meetings.Models\bin\Debug\Meetings.Models.dll.config
+c:\Users\Scott\documents\visual studio 2013\Projects\Meetings\Meetings.Models\bin\Debug\Meetings.Models.dll
+c:\Users\Scott\documents\visual studio 2013\Projects\Meetings\Meetings.Models\bin\Debug\Meetings.Models.pdb
+c:\Users\Scott\documents\visual studio 2013\Projects\Meetings\Meetings.Models\bin\Debug\EntityFramework.dll
+c:\Users\Scott\documents\visual studio 2013\Projects\Meetings\Meetings.Models\bin\Debug\EntityFramework.SqlServer.dll
+c:\Users\Scott\documents\visual studio 2013\Projects\Meetings\Meetings.Models\bin\Debug\EntityFramework.xml
+c:\Users\Scott\documents\visual studio 2013\Projects\Meetings\Meetings.Models\bin\Debug\EntityFramework.SqlServer.xml
+c:\Users\Scott\documents\visual studio 2013\Projects\Meetings\Meetings.Models\obj\Debug\Meetings.Models.dll
+c:\Users\Scott\documents\visual studio 2013\Projects\Meetings\Meetings.Models\obj\Debug\Meetings.Models.pdb
+C:\Users\Scott\documents\visual studio 2013\Projects\Meetings\Meetings.Models\bin\Debug\GeocodingApi.dll
+C:\Users\Scott\documents\visual studio 2013\Projects\Meetings\Meetings.Models\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Scott\documents\visual studio 2013\Projects\Meetings\Meetings.Models\bin\Debug\GeocodingApi.pdb
+C:\Users\Scott\documents\visual studio 2013\Projects\Meetings\Meetings.Models\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Scott\documents\visual studio 2013\Projects\Meetings\Meetings.Models\bin\Debug\Newtonsoft.Json.xml
