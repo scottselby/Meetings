@@ -7,8 +7,9 @@
 <head>
     <script src="~/Scripts/jquery-1.10.2.js"></script>
     <title>Home</title>
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,600" rel="stylesheet" type="text/css">
     <link href="~/Content/mapStyles.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=**********************&sensor=TRUE"></script>
     <script src="~/Scripts/date.js"></script>
     <script src="~/Scripts/mapScripts.js"></script>
@@ -16,7 +17,14 @@
 <body >
     <div class="topNavContainer">
        <ul class="topNavList">
-           <li><a>RecoveryMeetings.org</a></li>
+           <li class="logo"><a href="/" class="recovery-logo">
+                    <i class="fa fa-tree"></i>
+                    <div class="logo-text">
+                        <p>Recovery</p>
+                        <p>Meetings<span>.org</span></p>
+                    </div>
+                </a>
+           </li>
            <li><a>Home</a></li>
            <li><a>Advanced Search</a></li>
            <li><a>Meeting Info</a></li>
@@ -26,37 +34,39 @@
     </div>
 
     <div class="topFormContainer">
+        <div class="search-tool">
         <input type="hidden" name="Latitude" id="Latitude" />
         <input type="hidden" name="Longitude" id="Longitude" />
         <input type="hidden" name="formatted_address" id="formatted_address" />
-        <div class="SearchFormDesktop">
-            <input type="hidden" name="latitude" id="latitude">
-            <input type="hidden" name="longitude" id="longitude">
-            <label>Location:</label>
-            <input type="text" id="Location" name="Location" class="bigText" placeholder="Address, City, or Zipcode">
-            <a href="#" class="_getLocation imgLocation">
-                <img src="/Images/target.png" alt="target">
-            </a>
-            <label>With in:</label>
-            <select id="Radius" name="Radius">
-                <option value="1">1 Mile</option>
-                <option value="2">2 Miles</option>
-                <option value="3">3 Miles</option>
-                <option value="4">4 Miles</option>
-                <option value="5">5 Miles</option>
-                <option value="10">10 Miles</option>
-            </select>
-            <label>On:</label>
-            <select id="DayOfWeek" name="DayOfWeek">
-                <option value="0">Sunday</option>
-                <option value="1">Monday</option>
-                <option value="2">Tuesday</option>
-                <option value="3">Wednesday</option>
-                <option value="4">Thursday</option>
-                <option value="5">Friday</option>
-                <option value="6">Saturday</option>
-            </select>
-            <input type="button" value="Submit" id="SearchSubmit">
+            <div class="SearchFormDesktop">
+                <input type="hidden" name="latitude" id="latitude">
+                <input type="hidden" name="longitude" id="longitude">
+                <label>Location:</label>
+                <input type="text" id="Location" name="Location" class="bigText" placeholder="Address, City, or Zipcode">
+                <a href="#" class="_getLocation imgLocation">
+                    <i class="fa fa-crosshairs"></i>
+                </a>
+                <label>With in:</label>
+                <select id="Radius" name="Radius">
+                    <option value="1">1 Mile</option>
+                    <option value="2">2 Miles</option>
+                    <option value="3">3 Miles</option>
+                    <option value="4">4 Miles</option>
+                    <option value="5">5 Miles</option>
+                    <option value="10">10 Miles</option>
+                </select>
+                <label>On:</label>
+                <select id="DayOfWeek" name="DayOfWeek">
+                    <option value="0">Sunday</option>
+                    <option value="1">Monday</option>
+                    <option value="2">Tuesday</option>
+                    <option value="3">Wednesday</option>
+                    <option value="4">Thursday</option>
+                    <option value="5">Friday</option>
+                    <option value="6">Saturday</option>
+                </select>
+                <input type="button" value="Find" id="SearchSubmit">
+            </div>
         </div>
     </div>
     <div class="mainContainer" style="padding-left:225px;">
@@ -82,8 +92,8 @@
     </ul>
   
 
-    <img src="/Images/ajax-loader.gif" class="loading"  />
-    <img src="/Images/ajax-loader.gif" class="loadingLeft" />
+    <i class="loading fa fa-refresh fa-spin"  />
+    <img src="loading fa fa-refresh fa-spin" class="loadingLeft" />
 </body>
 
 @*<script type="text/javascript">
