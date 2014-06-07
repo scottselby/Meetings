@@ -10,3 +10,15 @@ C:\Users\Scott\documents\visual studio 2013\Projects\Meetings\Meetings.DataAcces
 C:\Users\Scott\documents\visual studio 2013\Projects\Meetings\Meetings.DataAccess\obj\Release\Meetings.DataAccess.csprojResolveAssemblyReference.cache
 C:\Users\Scott\documents\visual studio 2013\Projects\Meetings\Meetings.DataAccess\obj\Release\Meetings.DataAccess.dll
 C:\Users\Scott\documents\visual studio 2013\Projects\Meetings\Meetings.DataAccess\obj\Release\Meetings.DataAccess.pdb
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.DataAccess\bin\Release\Meetings.DataAccess.dll.config
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.DataAccess\bin\Release\Meetings.DataAccess.dll
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.DataAccess\bin\Release\Meetings.DataAccess.pdb
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.DataAccess\bin\Release\EntityFramework.dll
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.DataAccess\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.DataAccess\bin\Release\Meetings.Models.dll
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.DataAccess\bin\Release\Meetings.Models.pdb
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.DataAccess\bin\Release\EntityFramework.xml
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.DataAccess\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.DataAccess\obj\Release\Meetings.DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.DataAccess\obj\Release\Meetings.DataAccess.dll
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.DataAccess\obj\Release\Meetings.DataAccess.pdb

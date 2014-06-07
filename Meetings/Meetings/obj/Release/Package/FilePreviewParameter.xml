@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="IIS Web Application Name" description="" value="recoverymeetings.org/myapp" tags="IisApp">
-    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Scott\\documents\\visual\ studio\ 2013\\Projects\\Meetings\\Meetings\\obj\\Release\\Package\\PackageTmp$" />
-    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Scott\\documents\\visual\ studio\ 2013\\Projects\\Meetings\\Meetings\\obj\\Release\\Package\\PackageTmp$" />
+  <parameter name="IIS Web Application Name" description="" value="recoverymeetings.org/" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Sravan\\Documents\\GitHub\\Meetings\\Meetings\\Meetings\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Sravan\\Documents\\GitHub\\Meetings\\Meetings\\Meetings\\obj\\Release\\Package\\PackageTmp$" />
   </parameter>
-  <parameter name="MeetingContext-Web.config Connection String" description="" value="data source=sql2k804.discountasp.net;initial catalog=SQL2008R2_932096_meetings;persist security info=True;user id=SQL2008R2_932096_meetings_user;password=1234;MultipleActiveResultSets=True;App=EntityFramework" tags="">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\Scott\\documents\\visual\ studio\ 2013\\Projects\\Meetings\\Meetings\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MeetingContext']/@connectionString" />
+  <parameter name="MeetingContext-Web.config Connection String" description="" value="data source=sql2k804.discountasp.net;initial catalog=SQL2008R2_932096_meetings;persist security info=True;user id=SQL2008R2_932096_meetings_user;password=********;MultipleActiveResultSets=True;App=EntityFramework" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Sravan\\Documents\\GitHub\\Meetings\\Meetings\\Meetings\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MeetingContext']/@connectionString" />
   </parameter>
-  <parameter name="MeetingDbContext-Web.config Connection String" description="" value="Data Source=tcp:sql2k804.discountasp.net;Initial Catalog=SQL2008R2_932096_meetings;User ID=SQL2008R2_932096_meetings_user;Password=1234;" tags="">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\Scott\\documents\\visual\ studio\ 2013\\Projects\\Meetings\\Meetings\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MeetingDbContext']/@connectionString" />
+  <parameter name="MeetingDbContext-Web.config Connection String" description="" value="Data Source=tcp:sql2k804.discountasp.net;Initial Catalog=SQL2008R2_932096_meetings;User ID=SQL2008R2_932096_meetings_user;Password=********;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Sravan\\Documents\\GitHub\\Meetings\\Meetings\\Meetings\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MeetingDbContext']/@connectionString" />
   </parameter>
 </parameters>

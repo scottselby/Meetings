@@ -13,3 +13,16 @@ C:\Users\Scott\documents\visual studio 2013\Projects\Meetings\Meetings.Models\bi
 C:\Users\Scott\documents\visual studio 2013\Projects\Meetings\Meetings.Models\bin\Debug\GeocodingApi.pdb
 C:\Users\Scott\documents\visual studio 2013\Projects\Meetings\Meetings.Models\bin\Debug\Newtonsoft.Json.pdb
 C:\Users\Scott\documents\visual studio 2013\Projects\Meetings\Meetings.Models\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.Models\bin\Debug\Meetings.Models.dll.config
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.Models\bin\Debug\Meetings.Models.dll
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.Models\bin\Debug\Meetings.Models.pdb
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.Models\bin\Debug\EntityFramework.dll
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.Models\bin\Debug\EntityFramework.xml
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.Models\bin\Debug\GeocodingApi.pdb
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.Models\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.Models\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.Models\obj\Debug\Meetings.Models.csprojResolveAssemblyReference.cache
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.Models\obj\Debug\Meetings.Models.dll
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.Models\obj\Debug\Meetings.Models.pdb

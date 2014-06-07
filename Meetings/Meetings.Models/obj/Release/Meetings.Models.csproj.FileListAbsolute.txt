@@ -13,3 +13,16 @@ C:\Users\Scott\documents\visual studio 2013\Projects\Meetings\Meetings.Models\bi
 C:\Users\Scott\documents\visual studio 2013\Projects\Meetings\Meetings.Models\obj\Release\Meetings.Models.csprojResolveAssemblyReference.cache
 C:\Users\Scott\documents\visual studio 2013\Projects\Meetings\Meetings.Models\obj\Release\Meetings.Models.dll
 C:\Users\Scott\documents\visual studio 2013\Projects\Meetings\Meetings.Models\obj\Release\Meetings.Models.pdb
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.Models\bin\Release\Meetings.Models.dll.config
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.Models\bin\Release\Meetings.Models.dll
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.Models\bin\Release\Meetings.Models.pdb
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.Models\bin\Release\EntityFramework.dll
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.Models\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.Models\bin\Release\EntityFramework.xml
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.Models\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.Models\bin\Release\GeocodingApi.pdb
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.Models\bin\Release\Newtonsoft.Json.pdb
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.Models\bin\Release\Newtonsoft.Json.xml
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.Models\obj\Release\Meetings.Models.csprojResolveAssemblyReference.cache
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.Models\obj\Release\Meetings.Models.dll
+C:\Users\Sravan\Documents\GitHub\Meetings\Meetings\Meetings.Models\obj\Release\Meetings.Models.pdb
