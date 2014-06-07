@@ -87,6 +87,7 @@ body, body * {
     text-transform:uppercase;
     border:none;
     border-radius:2px;
+    cursor:pointer;
 }
 a {text-decoration:none;}
 .leftPanel{width:20%;height:800px;background-color:#fff;display: inline-block;}
@@ -99,7 +100,11 @@ a {text-decoration:none;}
 .time{display:inline-block;position:relative;left:0px;color: orange;font-family:digital_clock;background-color: #444;margin: 1px;padding: 2px;border-radius: 4px;border: 1px solid #ddd;}
 .day-of-week{display:inline-block;position:relative;right:0px;width:66px;color: darkblue;font-weight: 600;border: 1px solid darkblue;text-align: center;padding: 1px;border-radius: 8px;margin-left: 15px;}
 .mainContainer{}
-.loading{position:absolute;z-index:1001;top:42%;left:40%;}
-.loadingLeft{position:absolute;z-index:1001;top:42%;left:25px;}
+.loading,.loadingLeft{
+    position:absolute;z-index:1001;top:50%;left:50%;
+    margin-left:-60px; padding:5px 10px; 
+    border-radius:15px;margin-top:-30px;
+    background:#fff;background:rgba(255,255,255,0.7);
+}
 .Name{font-size:10pt;font-weight:100}
 .distance{font-size:10pt}

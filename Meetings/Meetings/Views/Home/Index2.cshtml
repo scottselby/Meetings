@@ -10,8 +10,7 @@
     <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,600" rel="stylesheet" type="text/css">
     <link href="~/Content/mapStyles.css" rel="stylesheet" />
     <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=**********************&sensor=TRUE"></script>
-    <script src="~/Scripts/date.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB21WhpoVeB3YdfHK0usPbUO9ogVBwnnoo&sensor=TRUE"></script><script src="~/Scripts/date.js"></script>
     <script src="~/Scripts/mapScripts.js"></script>
 </head>
 <body >
@@ -72,11 +71,17 @@
     <div class="mainContainer" style="padding-left:225px;">
         <div class="leftContainer">
             <ul class="search-results">
+
             </ul>
+            <div class="loading loadingLeft">
+                <i class="fa fa-refresh fa-spin"></i>&nbsp;Loading...
+            </div>
         </div>
         <div class="map-container" >
             <div id="map-canvas" style="width:100%;height:550px"></div>
-
+            <div class="loading">
+                <i class="fa fa-refresh fa-spin"></i>&nbsp;Loading...
+            </div>
         </div>
     </div>
     
@@ -90,10 +95,6 @@
             <div class="day-of-week"></div>            
         </li>       
     </ul>
-  
-
-    <i class="loading fa fa-refresh fa-spin"  />
-    <img src="loading fa fa-refresh fa-spin" class="loadingLeft" />
 </body>
 
 @*<script type="text/javascript">
