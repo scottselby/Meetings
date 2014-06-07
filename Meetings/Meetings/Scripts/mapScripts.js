@@ -175,10 +175,10 @@ function finishSearch() {
                 template.attr('data-Location', data[i].LocationName)
                 template.find('.Name').html(data[i].MeetingName);
                 template.find('.location-name').html(data[i].LocationName);
-                template.find('.Address').html(data[i].Address);
-                template.find('.time').html(time);
-                template.find('.day-of-week').html(GetDayOfWeek(data[i].DayOfWeek));
-                template.find('.distance').html((Math.round(data[i].distance * 100) / 100) + " miles");
+                template.find('.Address').html('<i class="fa fa-map-marker"></i> ' + data[i].Address);
+                template.find('.time').html('<i class="fa fa-clock-o"></i> ' + time);
+                template.find('.day-of-week').html('<i class="fa fa-calendar-o"></i> ' + GetDayOfWeek(data[i].DayOfWeek));
+                template.find('.distance').html('<i class="fa fa-road"></i> '+ (Math.round(data[i].distance * 100) / 100) + " miles");
                 $('.search-results').append(template);
 
                 var latitude = data[i].Latitude;
